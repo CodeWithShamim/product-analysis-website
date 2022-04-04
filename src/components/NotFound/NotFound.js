@@ -1,12 +1,14 @@
 import React from "react";
-import img from "../../images/NotFound.jpg";
+import { Link } from "react-router-dom";
+import img from "../../images/NotFound.webp";
 
 const NotFound = () => {
   return (
     <div>
-      <h1>404, Not Found!!</h1>
       <div>
-        <img src={img} alt="NotFound img" className="w-50 h-50" />
+        <Link to="/">
+          <img src={img} alt="NotFound img" className="img-fluid" />
+        </Link>
       </div>
     </div>
   );
