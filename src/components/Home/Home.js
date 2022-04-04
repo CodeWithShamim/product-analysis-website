@@ -5,8 +5,8 @@ import ReviewDetails from "../ReviewDetails/ReviewDetails";
 import "./Home.css";
 
 const Home = () => {
-  const [reviews, setReviews] = useReviews();
-  console.log(reviews);
+  const [reviews] = useReviews();
+  // console.log(reviews);
   return (
     <div className="container pt-md-5">
       <div className="home-container row g-5">
