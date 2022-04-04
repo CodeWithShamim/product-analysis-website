@@ -1,50 +1,44 @@
 [{
         "id": "624b2f5ec16cbe1f884f18e3",
         "name": "Mary Graves",
-        "img": "http://placehold.it/32x32",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK89elsAIHQcm5LB7TnkkiU8eYoZMakH_vLwAusLKKk2dDmuMVpmL5aluttIhMuDAMPyI&usqp=CAU",
         "about": "Reprehenderit ipsum nostrud cupidatat voluptate do consequat fugiat ea ullamco magna aute. Quis irure sint culpa voluptate. Duis pariatur non ad laboris voluptate dolore. Minim aliquip excepteur nisi elit et. Laborum enim culpa nostrud incididunt magna qui non sint. Tempor cillum aute Lorem ipsum nulla est aliquip commodo ad aute magna exercitation.\r\n",
-        "Ratings": "+1 (999) 480-2376"
+        "ratings": "5"
     },
     {
         "id": "624b2f5ece17ecc483b91fc4",
         "name": "Johanna Watkins",
-        "img": "http://placehold.it/32x32",
+        "img": "https://images.unsplash.com/photo-1569779213435-ba3167dde7cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFuJTIwZ2xhc3Nlc3xlbnwwfHwwfHw%3D&w=1000&q=80",
         "about": "Anim ipsum anim culpa non dolore incididunt nisi occaecat id sint. Eiusmod est voluptate proident nisi enim cillum aute elit esse reprehenderit qui sit qui qui. Excepteur incididunt nostrud incididunt magna laboris ullamco commodo reprehenderit et duis aute incididunt et. Laborum incididunt incididunt eiusmod dolore eiusmod laboris Lorem sit officia pariatur laboris.\r\n",
-        "Ratings": "+1 (886) 430-2246"
+        "ratings": "4"
     },
     {
         "id": "624b2f5ee0f705bcf16b17b0",
         "name": "Lacey Hoffman",
-        "img": "http://placehold.it/32x32",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToH_-JClJHLr7EhUgMl2RJ77hsqduvB8pLgaxi3xWQ79nklKLs86dmXxdnJlElJVxIDK4&usqp=CAU",
         "about": "Aliqua irure excepteur dolor pariatur cupidatat ea incididunt pariatur pariatur. Adipisicing minim enim aliquip consectetur. Eiusmod cillum velit ea magna do aute veniam Lorem laborum qui. Sint quis dolore qui Lorem in adipisicing cupidatat incididunt ut sit commodo non. Occaecat sit ullamco excepteur enim veniam.\r\n",
-        "Ratings": "+1 (901) 585-3664"
+        "ratings": "5"
     },
     {
         "id": "624b2f5e32596f5159667d03",
         "name": "Tammie Maxwell",
-        "img": "http://placehold.it/32x32",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQosErexsAgDBI9DS_GWayy0hufE6-X9xJwMeAx60LIv4cBLk1j0vm1UmSA1GMNtTKOdo&usqp=CAU",
         "about": "Ea eu ex ut dolore ex do sint qui ullamco minim consectetur irure velit. Proident sunt magna proident Lorem. Laborum sint amet nulla laborum.\r\n",
-        "Ratings": "+1 (953) 495-3435"
+        "ratings": "4.5"
     },
     {
         "id": "624b2f5e59f912e6fe6d06c6",
         "name": "Cotton Simmons",
-        "img": "http://placehold.it/32x32",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtYAk2UCWvmzuFz31HAKqa9xTbh3D5426l25Ckug8d6YVOKz9-2cI0Lp0-b9uWn1YlS4&usqp=CAU",
         "about": "Adipisicing duis fugiat amet exercitation dolor dolore laborum pariatur occaecat incididunt quis. Duis eu do eu laboris ad dolore duis. Exercitation quis labore Lorem amet minim nisi sint. Et quis in tempor laborum. Officia irure duis sunt Lorem nulla ut sint adipisicing.\r\n",
-        "Ratings": "+1 (995) 590-3727"
+        "ratings": "4"
     },
     {
         "id": "624b2f5ed11e3af7e91ab7b8",
         "name": "Constance George",
-        "img": "http://placehold.it/32x32",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DXfy_DBs3G2xjzM68VQIEu3fCA9VMXbu-YMlUctpTsBe9NOkYzDGN-eb8Ecx-AIs778&usqp=CAU",
         "about": "Aliqua aliquip velit proident excepteur est ad. Ex anim Lorem excepteur ullamco cillum ipsum. Incididunt ea culpa tempor cupidatat fugiat mollit ipsum aliquip culpa pariatur magna. Nulla magna dolor consectetur ex cillum ad excepteur excepteur veniam esse voluptate tempor aliquip. Minim irure nostrud reprehenderit sit sunt adipisicing proident proident quis commodo reprehenderit quis eu. Proident et cillum voluptate ad culpa nisi esse mollit cillum nisi labore incididunt proident.\r\n",
-        "Ratings": "+1 (975) 572-3434"
-    },
-    {
-        "id": "624b2f5e467653c2cb5424df",
-        "name": "Melton Gallegos",
-        "img": "http://placehold.it/32x32",
-        "about": "Cupidatat exercitation sunt dolore excepteur quis. Est aliqua sint velit occaecat quis. Laborum mollit magna deserunt incididunt aute tempor. Laboris velit ullamco ex laboris dolore ea qui anim aliqua est et in laborum. Ipsum labore voluptate duis ullamco adipisicing proident minim consectetur anim ipsum et proident sint nulla. Eu exercitation veniam reprehenderit velit nostrud duis incididunt amet exercitation commodo voluptate reprehenderit fugiat veniam.\r\n",
-        "Ratings": "+1 (947) 535-3252"
+        "ratings": "5"
     }
+
 ]

@@ -29,9 +29,9 @@ const Home = () => {
 
       <div className="customer-review">
         <h1>Customer Review (3)</h1>
-        <div className="review-details">
+        <div className="review-details row">
           {reviews.map((review) => (
-            <ReviewDetails review={review}></ReviewDetails>
+            <ReviewDetails key={review.id} review={review}></ReviewDetails>
           ))}
         </div>
       </div>
