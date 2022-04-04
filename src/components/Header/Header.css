@@ -1,6 +1,7 @@
 .navbar-container {
     margin: 35px 0px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .navbar-container a {
