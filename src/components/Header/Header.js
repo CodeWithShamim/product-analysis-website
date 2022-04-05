@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="bg-warning header-container">
       <div className="navbar-container">
         <Link to="/">Home</Link>
 
