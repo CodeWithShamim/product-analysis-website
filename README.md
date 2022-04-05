@@ -1,6 +1,6 @@
 # product analysis website
 
-##Live Site Link:
+## Live Site Link:
 [https://products-analysis-web.netlify.app/](https://products-analysis-web.netlify.app/)
 
 * first of all, create navbar and customize home component
