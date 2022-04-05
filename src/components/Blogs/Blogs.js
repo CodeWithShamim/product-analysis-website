@@ -3,7 +3,7 @@ import "./Blogs.css";
 
 const Blogs = () => {
   return (
-    <div className="container row g-4 mt-4">
+    <div className="blogs-container container row mx-auto mt-5">
       <div className="col-md-6">
         <h2>What is Context API?</h2>
         <p>

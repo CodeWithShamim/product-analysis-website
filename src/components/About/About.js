@@ -1,8 +1,9 @@
 import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
-    <div className="container w-75 mt-5 font-monospace">
+    <div className="about-container container mt-5 font-monospace">
       <p>
         Watch Jon is In general, modern watches often display the day, date,
         month, and year. For mechanical watches, various extra features called
