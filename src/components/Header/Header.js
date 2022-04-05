@@ -8,13 +8,13 @@ const Header = () => {
       <div className="navbar-container d-flex justify-content-center">
         <CustomLink to="/">Home</CustomLink>
 
-        <CustomLink to="reviews">Reviews</CustomLink>
+        <CustomLink to="/reviews">Reviews</CustomLink>
 
-        <CustomLink to="dashboard">Dashboard</CustomLink>
+        <CustomLink to="/dashboard">Dashboard</CustomLink>
 
-        <CustomLink to="blogs">Blogs</CustomLink>
+        <CustomLink to="/blogs">Blogs</CustomLink>
 
-        <CustomLink to="about">About</CustomLink>
+        <CustomLink to="/about">About</CustomLink>
       </div>
     </div>
   );

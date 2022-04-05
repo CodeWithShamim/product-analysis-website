@@ -1,6 +1,5 @@
 # LIVE PROJECT LINK:
-
-[GO](https://products-analysis-web.netlify.app/)
+[CLICK HERE](https://products-analysis-web.netlify.app/)
 
 * number1
 * number 2

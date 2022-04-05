@@ -13,9 +13,13 @@ const ReviewDetails = ({ review }) => {
         id="customer-img"
       />
       <div>
-        <h4>Name: {name}</h4>
-        <p>Review: {aboutItem}</p>
-        <p>Ratings: {ratings}</p>
+        <h4>
+          Name: <span className="text-warning">{name}</span>
+        </h4>
+        <p>{aboutItem}</p>
+        <p>
+          Ratings: <span className="text-warning">{ratings}</span>
+        </p>
       </div>
     </div>
   );

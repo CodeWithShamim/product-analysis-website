@@ -1,0 +1,10 @@
+.semantic-tag-item ul {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+}
+
+.semantic-tag-item ul li {
+    list-style-type: decimal;
+    text-align: left;
+}

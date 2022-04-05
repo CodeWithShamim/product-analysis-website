@@ -1,4 +1,5 @@
 import React from "react";
+import "./Blogs.css";
 
 const Blogs = () => {
   return (
@@ -14,13 +15,6 @@ const Blogs = () => {
           nested component tree so that we can access them in the component at
           the lowest level.
         </p>
-        <p>
-          <span>Context in React</span> just provides a way to pass the data
-          directly to the required components rather than passing them through
-          every level of the component tree. So using React Context, we don't
-          have to pass the props unnecessarily to all those intermediate
-          components that do not need the props.
-        </p>
       </div>
       <div className="col-md-6">
         <h2>What is semantic HTML tag?</h2>
@@ -34,7 +28,7 @@ const Blogs = () => {
           helping search engines to correctly index the page.
         </p>
         <h5>HTML5 Semantic tag is:</h5>
-        <div>
+        <div className="semantic-tag-item">
           <ul>
             <li>Main</li>
             <li>Section</li>
@@ -43,7 +37,6 @@ const Blogs = () => {
             <li>Header</li>
             <li>Footer</li>
             <li>Heading</li>
-            <li>Figure & Figcaption</li>
             <li>audio & video</li>
           </ul>
         </div>

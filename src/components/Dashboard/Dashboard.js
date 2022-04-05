@@ -100,6 +100,7 @@ const Dashboard = () => {
                 strokeDasharray="3 3"
               />
               <Tooltip />
+
               <Area
                 type="monotone"
                 dataKey="investment"
@@ -109,9 +110,10 @@ const Dashboard = () => {
               <Area
                 type="monotone"
                 dataKey="revenue"
-                stroke="#8884d8"
-                fill="#8884d8"
+                stroke="#9983D8"
+                fill="#9983D8"
               />
+
               <Legend />
             </AreaChart>
           </ResponsiveContainer>

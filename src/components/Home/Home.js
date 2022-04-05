@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../../images/cover.png";
+import img from "../../images/cover.jpg";
 import useReviews from "../hooks/useReviews";
 import ReviewDetails from "../ReviewDetails/ReviewDetails";
 import "./Home.css";
@@ -14,21 +14,22 @@ const Home = () => {
       <div className="home-container container row g-4">
         <div className="left-side col-md-6 text-center">
           <h1 className="title-bar">
-            Your Next Choice{" "}
-            <span className="text-warning">Your Best Choice!!</span>
+            Your watch
+            <br />
+            <small className="text-warning">Your way!!</small>
           </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
-            delectus cupiditate fuga similique deserunt cum repellat quod
-            tempora quae accusamus, cumque animi ad provident voluptates unde,
-            amet, aliquid vel aspernatur?
+            Powerful features to help keep you connected, active, healthy, and
+            safe. Advanced sensors to track all the ways you move and to measure
+            your favorite workouts. And available cellular so you can go without
+            your phone
           </p>
           <button className="btn btn-warning px-5 py-2 mt-4 fw-bold text-light">
             Buy Now
           </button>
         </div>
         <div className="right-side col-md-6 text-center">
-          <img src={img} alt="cover-photoo" className="img-fluid w-75 h-75" />
+          <img src={img} alt="cover-photoo" className="img-fluid" />
         </div>
       </div>
 
