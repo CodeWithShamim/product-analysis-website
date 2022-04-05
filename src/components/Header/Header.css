@@ -20,7 +20,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 2px solid #fff;
     border-radius: 2px;
-    transition: 1s ease-in border-color, color;
+    transition: 0.2s ease-in border-color, color;
 }
 
 .navbar-container a:hover {

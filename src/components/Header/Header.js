@@ -1,20 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 
 const Header = () => {
   return (
     <div className="bg-warning header-container">
-      <div className="navbar-container">
-        <Link to="/">Home</Link>
+      <div className="navbar-container d-flex justify-content-center">
+        <CustomLink to="/">Home</CustomLink>
 
-        <Link to="reviews">Reviews</Link>
+        <CustomLink to="reviews">Reviews</CustomLink>
 
-        <Link to="dashboard">Dashboard</Link>
+        <CustomLink to="dashboard">Dashboard</CustomLink>
 
-        <Link to="blogs">Blogs</Link>
+        <CustomLink to="blogs">Blogs</CustomLink>
 
-        <Link to="about">About</Link>
+        <CustomLink to="about">About</CustomLink>
       </div>
     </div>
   );
