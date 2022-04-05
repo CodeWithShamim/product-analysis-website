@@ -1,7 +1,7 @@
 import {
   Area,
   AreaChart,
-  CartesianGrid,
+  // CartesianGrid,
   Legend,
   Line,
   LineChart,
