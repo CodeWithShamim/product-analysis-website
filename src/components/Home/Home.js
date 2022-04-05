@@ -14,7 +14,8 @@ const Home = () => {
       <div className="home-container container row g-4">
         <div className="left-side col-md-6 text-center">
           <h1 className="title-bar">
-            Buy some product for <span className="text-warning">fun!!</span>
+            Your Next Choice{" "}
+            <span className="text-warning">Your Best Choice!!</span>
           </h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
