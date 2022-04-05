@@ -14,7 +14,7 @@ const ReviewDetails = ({ review }) => {
       />
       <div>
         <h4>
-          Name: <span className="text-warning">{name}</span>
+          Name: <span className="text-info">{name}</span>
         </h4>
         <p>{aboutItem}</p>
         <p>
