@@ -60,34 +60,37 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container mt-4">
+      <div className="row g-4">
         <div className="col-md-6">
-          <h3>Month Wise sell</h3>
-          <LineChart
-            width={730}
-            height={250}
-            data={data}
-            margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="month" />
-            <YAxis />
-            <Tooltip />
-            <Legend />
-            <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
-          </LineChart>
+          <h3 className="text-info">Month Wise sell</h3>
+          <ResponsiveContainer width="98%" height="90%">
+            <LineChart
+              width={730}
+              height={250}
+              data={data}
+              margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+            >
+              {/* <CartesianGrid strokeDasharray="3 3" /> */}
+              <XAxis dataKey="month" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
+            </LineChart>
+          </ResponsiveContainer>
         </div>
         {/* ------------------------- */}
-        <div>
-          <ResponsiveContainer width={700} height="80%">
+        <div className="col-md-6">
+          <h3 className="text-info">Investment VS Revenue</h3>
+          <ResponsiveContainer width="98%" height="90%">
             <AreaChart
               data={data}
               margin={{ top: 20, right: 30, left: 0, bottom: 0 }}
             >
-              <XAxis dataKey="investment" />
+              <XAxis dataKey="month" />
               <YAxis />
-              <CartesianGrid strokeDasharray="3 3" />
+              {/* <CartesianGrid strokeDasharray="3 3" /> */}
               <Tooltip />
               <ReferenceLine x="Page C" stroke="green" label="Min PAGE" />
               <ReferenceLine
@@ -96,14 +99,20 @@ const Dashboard = () => {
                 stroke="red"
                 strokeDasharray="3 3"
               />
-
               <Tooltip />
               <Area
                 type="monotone"
-                dataKey="month"
+                dataKey="investment"
                 stroke="#8884d8"
                 fill="#8884d8"
               />
+              <Area
+                type="monotone"
+                dataKey="revenue"
+                stroke="#8884d8"
+                fill="#8884d8"
+              />
+              <Legend />
             </AreaChart>
           </ResponsiveContainer>
         </div>
