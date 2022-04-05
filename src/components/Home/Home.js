@@ -11,8 +11,8 @@ const Home = () => {
   // console.log(reviews);
   return (
     <div className="container my-5">
-      <div className="home-container row g-5">
-        <div className="left-side col-md-6">
+      <div className="home-container container row g-4">
+        <div className="left-side col-md-6 text-center">
           <h1 className="title-bar">
             Buy some product for <span className="text-warning">fun!!</span>
           </h1>
